@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Authentication System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <p class="nav-title">Authentication</p>
+        </div>
+        <div class="nav-right">
+            <a href="/">Home</a>
+            <a href="/">About</a>
+            <a href="/">Servies</a>
+            <a href="/">Contact</a>
+            <button type="button" id="btn-login">Login</button>
+        </div>
+    </nav>
+
+    <h1 style="color: white;">Welcome to Login System</h1>
+    <!-- <a href="register.php">Register</a> | <a href="login.php">Login</a> -->
+</body>
+
+<script>
+    button = document.getElementById('btn-login');
+
+    button.addEventListener('click', ()=> {
+        window.location.href = "login.php";
+    })
+</script>
+
+</html>
